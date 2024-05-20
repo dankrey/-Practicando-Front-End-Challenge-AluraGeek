@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/root.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="icon" href="assets/icons/tienda.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <title>AluraGeek</title>
+
+</head>
+
+<body>
+    <!-- Header o Cabecera -->
+    <header>
+        <div class="menu__icons">
+            <img class="" src="assets/icons/Corazon.svg" >
+            <h1 class="menu__title" >AluraGeek</h1>
+        </div>
+    </header>
+    <main class="grid-container">
+        <!-- Sección de lista de productos -->
+        <section id="" class="homeSide" data-product>
+            <div class="full-width">
+                <h2>MIS PRODUCTOS:</h2>
+            </div>
+          
+        </section>
+
+     
+
+        <!-- Sección de Formulario -->
+        <section class="registerSide">
+            <h2 class="full-width">AGREGAR PRODUCTO:</h2>
+            <form class="main__form" data-form>
+                
+                <fieldset class="form__field">
+                    <label class="field__label" for="name"><h3>Nombre</h3></label>
+                    <input
+                        name="name"
+                        id="name"
+                        class="full__field"
+                        type="text"
+                        placeholder="Escriba el nombre del producto"
+                        minlength="3"
+                        maxlength="100"
+                        required
+                        data-name
+                    >
+                    <span class="error-message"></span>
+                </fieldset>
+                <fieldset class="form__field">
+                    <label class="field__label" for="price"><h3>Precio $</h3></label>
+                    <input
+                        name="price"
+                        id="price"
+                        class="full__field"
+                        type="number"
+                        placeholder="Ingrese el precio del producto en dólares"
+                        minlength="1"
+                        required
+                        data-price
+                    >
+                    <span class="error-message"></span>
+                </fieldset>
+                <fieldset class="form__field">
+                    <label class="field__label" for="image"><h3>Ingrese la URL de la imagen</h3></label>
+                    <input
+                        name="image"
+                        id="image"
+                        class="full__field"
+                        type="url"
+                        placeholder="Ingrese la URL de la imagen"
+                        minlength="3"
+                        required
+                        data-image
+                    >
+                    <span class="error-message"></span>
+                </fieldset>
+                <div class="buttons-container">
+                    <div class="button-wrapper">
+                        <button class="button_Enviar" value="" id="send" type="submit">
+                            <div class="svg-wrapper-1">
+                                <div class="svg-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <span>Enviar</span>
+                        </button>
+                    </div>
+                    <div class="button-wrapper">
+                        <button class="button_Clean noselect" value="" id="delete" type="submit">
+                            <span class="text">Limpiar</span>
+                            <span class="icon">
+                                <img src="assets/icons/escoba.png" alt="Icono de limpiar">
+                            </span>
+                        </button>
+                        
+                    </div>
+                </div>
+                
+                
+            </form>
+        </section>
+    </main>
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class= "menu__icons">
+            <img class="" src="assets/icons/Corazon.svg">
+            <h1 class="menu__title" >AluraGeek</h1>
+        </div>
+        <div >
+            <p class="Subtitulo">Desarrollado por Daniel Esteban Reyes Reyes</p>
+            <p >Mayo de 2024</p>
+        </div>
+    </section>
+    <script src="js/controllers/main.js" type="module"></script>
+    <script src="js/validators/formValidator.js" type="module"></script>
+</body>
+
+</html>

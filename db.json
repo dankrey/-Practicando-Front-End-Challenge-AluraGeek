@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Figura Nezuko Kamado",
+      "price": "12000",
+      "image": "https://www.banpresto.es/wp-content/uploads/2024/03/MH839221-300x300.png"
+    },
+    {
+      "id": "2",
+      "name": "Figura Zenitsu Agatsuma",
+      "price": "13000",
+      "image": "https://www.banpresto.es/wp-content/uploads/2023/10/VE88962-300x300.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Figura Q Posket Inosuke",
+      "price": "15000",
+      "image": "https://www.banpresto.es/wp-content/uploads/2022/05/logo_18456_2588653-300x300.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Figura Tanjiro Kamado",
+      "price": "12000",
+      "image": "https://www.banpresto.es/wp-content/uploads/2024/03/MH839214-300x300.png"
+    },
+    {
+      "id": "5",
+      "name": "Figura Kyojuro Rengoku",
+      "price": "11000",
+      "image": "https://www.banpresto.es/wp-content/uploads/2021/07/thumb_c1443a87-7cb3-4f27-8eaf-8d9b78bdc517_600x-300x300.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Figura Shinobu Kocho",
+      "price": "12000",
+      "image": "https://www.banpresto.es/wp-content/uploads/2022/12/logo_88053_2630211_1-300x300.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Figura Obanai Iguro Demon",
+      "price": "11000",
+      "image": "https://www.banpresto.es/wp-content/uploads/2024/03/44979-logo_89456_2711669_1-300x300.jpg"
+    }
+  ]
+}
